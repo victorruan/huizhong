@@ -148,7 +148,7 @@ class NewsController extends Controller
         $pagination = new Pagination(['totalCount' => $count]);
         $pagination->pageSize=12;
         $articles = $query->offset($pagination->offset)
-            ->limit($pagination->limit)
+            ->limit($pagination->limit)->orderBy('id desc')
             ->all();
         return ['totalCount' => $count,'articles' => $articles];
     }
