@@ -141,15 +141,19 @@ class NewsController extends Controller
         }
     }
 
-    public function actionApi($page=0){
+    public function actionApi($page=0,$id=null){
         Yii::$app->response->format = 'json';
-        $query = News::find();
-        $count = $query->count();
-        $pagination = new Pagination(['totalCount' => $count]);
-        $pagination->pageSize=12;
-        $articles = $query->offset($pagination->offset)
-            ->limit($pagination->limit)->orderBy('id desc')
-            ->all();
-        return ['totalCount' => $count,'articles' => $articles];
+        if(isset($id)){
+            return News::findOne(['id'=>$id]);
+        }else{
+            $query = News::find();
+            $count = $query->count();
+            $pagination = new Pagination(['totalCount' => $count]);
+            $pagination->pageSize=12;
+            $articles = $query->offset($pagination->offset)
+                ->limit($pagination->limit)->orderBy('id desc')
+                ->all();
+            return ['totalCount' => $count,'articles' => $articles];
+        }
     }
 }
