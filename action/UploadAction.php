@@ -35,7 +35,6 @@ class UploadAction extends Action
                 }
                 $upload->saveAs($path.$filename);
                 echo $this->config['uploadpath'][0]=='/'?$this->config['uploadpath'].$filename:$path.$filename;
-
             }
             else
             {

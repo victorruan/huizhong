@@ -36,7 +36,7 @@ class NewsController extends Controller
             'upload' => [
                 'class' => 'kucha\ueditor\UEditorAction',
                 'config' => [
-                    "imageUrlPrefix"  => "",//图片访问路径前缀
+                    "imageUrlPrefix"  => Yii::$app->request->hostInfo,//图片访问路径前缀
                     "imagePathFormat" => "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}", //上传保存路径
                     "imageRoot" => Yii::getAlias("@webroot"),
                 ]
@@ -153,7 +153,7 @@ class NewsController extends Controller
             $articles = $query->offset($pagination->offset)
                 ->limit($pagination->limit)->orderBy('id desc')
                 ->all();
-            return ['totalCount' => $count,'articles' => $articles];
+            return ['host'=>Yii::$app->request->hostInfo,'totalCount' => $count,'articles' => $articles];
         }
     }
 }
