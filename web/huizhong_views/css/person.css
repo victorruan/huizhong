@@ -1,0 +1,554 @@
+.content {
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  text-align: center;
+  background-color: #080808;
+  height: 1080px;
+}
+.content .top-bar {
+  width: 100%;
+  min-width: 1000px;
+  height: 150px;
+  background: url("../imgs/personCenter_topbg.jpg") no-repeat center;
+  background-size: cover;
+  border-bottom: 1px solid #aa9562;
+}
+.content .top-bar .center {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+  position: relative;
+}
+.content .top-bar .center img {
+  position: absolute;
+  left: 60px;
+  top: 0;
+}
+.content .top-bar .center .person-mesage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 395px;
+  height: 100%;
+  line-height: 150px;
+  font-size: 14px;
+  color: #f1f5f6;
+}
+.content .top-bar .center .person-mesage p {
+  position: absolute;
+}
+.content .top-bar .center .person-mesage p.account {
+  width: 170px;
+  left: 0px;
+}
+.content .top-bar .center .person-mesage p.name {
+  left: 170px;
+  width: 130px;
+  text-align: left;
+  padding-left: 30px;
+}
+.content .top-bar .center .person-mesage p.logo-out {
+  left: 330px;
+  width: 65px;
+}
+.content .top-bar .center .person-mesage p.logo-out a:hover {
+  color: #f1f5f6;
+  cursor: pointer;
+}
+.content .main-content {
+  width: 100%;
+  min-width: 1000px;
+}
+.content .main-content .center {
+  margin: 0 auto;
+  width: 1000px;
+  position: relative;
+}
+.content .main-content .center .left-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 755px;
+  border-right: 1px solid #aa9562;
+  border-left: 1px solid #aa9562;
+  border-bottom: 1px solid #aa9562;
+}
+.content .main-content .center .left-bar img {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.content .main-content .center .left-bar a {
+  display: inline-block;
+  width: 208px;
+  height: 55px;
+  line-height: 55px;
+  border: 2px solid #5a5037;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  font-size: 18px;
+  color: #cda44d;
+  margin-bottom: 27px;
+}
+.content .main-content .center .left-bar a.active {
+  background: url("../imgs/personCenter_btn.png") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+.content .main-content .center .myaccount-bar {
+  width: 620px;
+  position: absolute;
+  left: 340px;
+  top: 220px;
+}
+.content .main-content .center .myaccount-bar .title-bar {
+  color: white;
+  font-size: 14px;
+}
+.content .main-content .center .myaccount-bar .title-bar .title {
+  margin-top: -30px;
+}
+.content .main-content .center .myaccount-bar .one-list {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background-color: #d2d2d2;
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: #080808;
+}
+.content .main-content .center .myaccount-bar .one-list.one {
+  top: 32px;
+}
+.content .main-content .center .myaccount-bar .one-list.two {
+  top: 77px;
+  background-color: white;
+}
+.content .main-content .center .myaccount-bar .one-list.three {
+  top: 122px;
+}
+.content .main-content .center .myaccount-bar .one-list span {
+  position: absolute;
+}
+.content .main-content .center .myaccount-bar .one-list span.left-des {
+  left: 45px;
+}
+.content .main-content .center .myaccount-bar .one-list span.right-des {
+  left: 345px;
+}
+.content .main-content .center .inaccount-bar {
+  width: 620px;
+  position: absolute;
+  left: 340px;
+  top: 220px;
+}
+.content .main-content .center .inaccount-bar .title-bar {
+  color: white;
+  font-size: 14px;
+}
+.content .main-content .center .inaccount-bar .title-bar .title {
+  margin-top: -30px;
+}
+.content .main-content .center .inaccount-bar .one-list {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background-color: #d2d2d2;
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: #080808;
+  text-align: left;
+}
+.content .main-content .center .inaccount-bar .one-list .style-left {
+  margin-left: 50px ;
+}
+.content .main-content .center .inaccount-bar .one-list.one {
+  top: 32px;
+}
+.content .main-content .center .inaccount-bar .one-list.one input {
+  background-color: red;
+}
+.content .main-content .center .inaccount-bar .one-list.two {
+  top: 77px;
+  background-color: white;
+}
+.content .main-content .center .inaccount-bar .one-list.three {
+  top: 122px;
+}
+.content .main-content .center .inaccount-bar .one-list.four {
+  top: 167px;
+  background-color: white;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+}
+.content .main-content .center .inaccount-bar .one-list.four .inmoney-btn {
+  display: inline-block;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  border: 2px solid #d2b975;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  font-size: 18px;
+  color: #cda44d;
+  margin-bottom: 27px;
+  background: url("../imgs/personCenter_btn.png") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+.content .main-content .center .inaccount-bar .one-list .in-money {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  width: 90px;
+  height: 25px;
+}
+.content .main-content .center .inaccount-list {
+  width: 620px;
+  position: absolute;
+  left: 340px;
+  top: 220px;
+}
+.content .main-content .center .inaccount-list .title-bar {
+  color: white;
+  font-size: 14px;
+}
+.content .main-content .center .inaccount-list .title-bar .title {
+  margin-top: -30px;
+}
+.content .main-content .center .inaccount-list .data-bar {
+  width: 620px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #d2d2d2;
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: #080808;
+  top: 32px;
+}
+.content .main-content .center .inaccount-list .data-bar input {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  width: 120px;
+  height: 25px;
+  line-height: 25px;
+}
+.content .main-content .center .inaccount-list .data-bar a {
+  cursor: pointer;
+}
+.content .main-content .center .inaccount-list .date-list {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  left: 2px;
+  width: 620px;
+  font-size: 14px;
+  background-color: white;
+}
+.content .main-content .center .inaccount-list .date-list .list-title {
+  position: relative;
+  height: 50px;
+  width: 620px;
+  border-bottom: 1px solid #cccccc;
+}
+.content .main-content .center .inaccount-list .date-list .list-title span {
+  position: absolute;
+  bottom: 5px;
+}
+.content .main-content .center .inaccount-list .date-list .list-title span.one {
+  left: 75px;
+}
+.content .main-content .center .inaccount-list .date-list .list-title span.two {
+  left: 270px;
+}
+.content .main-content .center .inaccount-list .date-list .list-title span.three {
+  right: 75px;
+}
+.content .main-content .center .inaccount-list .date-list .list {
+  position: relative;
+  height: 35px;
+  width: 620px;
+  border-bottom: 1px solid #cccccc;
+}
+.content .main-content .center .inaccount-list .date-list .list span {
+  position: absolute;
+  bottom: 7px;
+}
+.content .main-content .center .inaccount-list .date-list .list span.one {
+  left: 75px;
+}
+.content .main-content .center .inaccount-list .date-list .list span.two {
+  left: 270px;
+}
+.content .main-content .center .inaccount-list .date-list .list span.three {
+  right: 75px;
+}
+.content .main-content .center .inaccount-list .date-list .list span.three.success {
+  color: #e60012;
+}
+.content .main-content .center .inaccount-list .date-list .list span.three.fail {
+  color: #808080;
+}
+.content .main-content .center .inaccount-list .date-list .list span.three.progress {
+  color: #bf892c;
+}
+.content .main-content .center .inaccount-list .date-list .list-bottom {
+  width: 610px;
+  height: 40px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.content .main-content .center .inaccount-list .date-list .list-bottom a {
+  cursor: pointer;
+}
+.content .main-content .center .outaccount-bar {
+  width: 620px;
+  position: absolute;
+  left: 340px;
+  top: 220px;
+}
+.content .main-content .center .outaccount-bar .title-bar {
+  color: white;
+  font-size: 14px;
+}
+.content .main-content .center .outaccount-bar .title-bar .title {
+  margin-top: -30px;
+}
+.content .main-content .center .outaccount-bar .one-list {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background-color: #d2d2d2;
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: #080808;
+  text-align: left;
+}
+.content .main-content .center .outaccount-bar .one-list .style-left {
+  margin-left: 50px ;
+}
+.content .main-content .center .outaccount-bar .one-list.one {
+  top: 32px;
+}
+.content .main-content .center .outaccount-bar .one-list.two {
+  top: 77px;
+  background-color: white;
+}
+.content .main-content .center .outaccount-bar .one-list.two .input {
+  -webkit-appearance: none;
+  border: 1px solid #cccccc;
+  background: none;
+  width: 150px;
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.content .main-content .center .outaccount-bar .one-list.three {
+  top: 122px;
+}
+.content .main-content .center .outaccount-bar .one-list.three span {
+  margin-right: 12px;
+}
+.content .main-content .center .outaccount-bar .one-list.three .in-bank {
+  -webkit-appearance: none;
+  border: 1px solid #cccccc;
+  width: 350px;
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.content .main-content .center .outaccount-bar .one-list.four {
+  top: 167px;
+  background-color: white;
+}
+.content .main-content .center .outaccount-bar .one-list.four span {
+  margin-right: 55px;
+}
+.content .main-content .center .outaccount-bar .one-list.four .in-money {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  width: 90px;
+  height: 25px;
+}
+.content .main-content .center .outaccount-bar .one-list.five {
+  top: 212px;
+  background-color: white;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+}
+.content .main-content .center .outaccount-bar .one-list.five .inmoney-btn {
+  display: inline-block;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  border: 2px solid #d2b975;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  font-size: 18px;
+  color: #cda44d;
+  margin-bottom: 27px;
+  background: url("../imgs/personCenter_btn.png") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+.content .main-content .center .outaccount-bar .one-list .in-money {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  width: 90px;
+  height: 25px;
+}
+.content .main-content .center .outaccount-list {
+  width: 620px;
+  position: absolute;
+  left: 340px;
+  top: 220px;
+}
+.content .main-content .center .outaccount-list .title-bar {
+  color: white;
+  font-size: 14px;
+}
+.content .main-content .center .outaccount-list .title-bar .title {
+  margin-top: -30px;
+}
+.content .main-content .center .outaccount-list .data-bar {
+  width: 620px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #d2d2d2;
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: #080808;
+  top: 32px;
+}
+.content .main-content .center .outaccount-list .data-bar input {
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  width: 120px;
+  height: 25px;
+  line-height: 25px;
+}
+.content .main-content .center .outaccount-list .data-bar a {
+  cursor: pointer;
+}
+.content .main-content .center .outaccount-list .date-list {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  left: 2px;
+  width: 620px;
+  font-size: 14px;
+  background-color: white;
+}
+.content .main-content .center .outaccount-list .date-list .list-title {
+  position: relative;
+  height: 50px;
+  width: 620px;
+  border-bottom: 1px solid #cccccc;
+}
+.content .main-content .center .outaccount-list .date-list .list-title span {
+  position: absolute;
+  bottom: 5px;
+}
+.content .main-content .center .outaccount-list .date-list .list-title span.one {
+  left: 75px;
+}
+.content .main-content .center .outaccount-list .date-list .list-title span.two {
+  left: 190px;
+}
+.content .main-content .center .outaccount-list .date-list .list-title span.three {
+  left: 310px;
+}
+.content .main-content .center .outaccount-list .date-list .list-title span.four {
+  right: 75px;
+}
+.content .main-content .center .outaccount-list .date-list .list {
+  position: relative;
+  height: 35px;
+  width: 620px;
+  border-bottom: 1px solid #cccccc;
+}
+.content .main-content .center .outaccount-list .date-list .list span {
+  position: absolute;
+  bottom: 7px;
+}
+.content .main-content .center .outaccount-list .date-list .list span.one {
+  left: 75px;
+}
+.content .main-content .center .outaccount-list .date-list .list span.two {
+  left: 190px;
+}
+.content .main-content .center .outaccount-list .date-list .list span.three {
+  left: 310px;
+}
+.content .main-content .center .outaccount-list .date-list .list span.four {
+  right: 75px;
+}
+.content .main-content .center .outaccount-list .date-list .list span.four.success {
+  color: #e60012;
+}
+.content .main-content .center .outaccount-list .date-list .list span.four.fail {
+  color: #808080;
+}
+.content .main-content .center .outaccount-list .date-list .list span.four.progress {
+  color: #bf892c;
+}
+.content .main-content .center .outaccount-list .date-list .list-bottom {
+  width: 610px;
+  height: 40px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.content .main-content .center .outaccount-list .date-list .list-bottom a {
+  cursor: pointer;
+}
+.content .bottom {
+  width: 100%;
+  min-width: 1000px;
+  height: 150px;
+  background: url("../imgs/personCenter_bottombg.jpg") no-repeat center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.content .bottom img {
+  margin-top: 60px;
+  width: 90%;
+  min-width: 1000px;
+}

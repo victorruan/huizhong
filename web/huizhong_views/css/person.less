@@ -1,0 +1,564 @@
+@main-fontsize:22px;
+@max-fontsize:32px;
+@bmax-fontsize:36px;
+@min-fontsize:18px;
+@smin-fontsize:12px;
+@border-color:#e5e5e5;
+
+.content{
+  position: relative;
+  width: 100%;
+  min-width: 1000px;
+  text-align: center;
+  background-color: #080808;
+  height: 1080px;
+  .top-bar{
+    width: 100%;
+    min-width: 1000px;
+    height: 150px;
+    background: url("../imgs/personCenter_topbg.jpg") no-repeat center;
+    background-size: cover;
+    border-bottom: 1px solid #aa9562;
+    .center{
+      margin: 0 auto;
+      width: 1000px;
+      height: 100%;
+      position: relative;
+      img{
+        position: absolute;
+        left: 60px;
+        top: 0;
+      }
+      .person-mesage{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 395px;
+        height: 100%;
+        line-height: 150px;
+        font-size: 14px;
+        color: #f1f5f6;
+        p{
+          position: absolute;
+          &.account{
+            width: 170px;
+            left: 0px;
+          }
+          &.name{
+            left: 170px;
+            width: 130px;
+            text-align: left;
+            padding-left: 30px;
+          }
+          &.logo-out{
+            left: 330px;
+            width: 65px;
+            a{
+              &:hover{
+                color: #f1f5f6;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .main-content{
+    width: 100%;
+    min-width: 1000px;
+    .center{
+      margin: 0 auto;
+      width: 1000px;
+      position: relative;
+      .left-bar{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 755px;
+        border-right: 1px solid #aa9562;
+        border-left: 1px solid #aa9562;
+        border-bottom: 1px solid #aa9562;
+        img{
+          margin-top: 80px;
+          margin-bottom: 80px;
+        }
+        a{
+          display: inline-block;
+          width: 208px;
+          height: 55px;
+          line-height: 55px;
+          border: 2px solid #5a5037;
+          border-radius: 2px;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          font-size: 18px;
+          color: #cda44d;
+          margin-bottom: 27px;
+          &.active{
+            background: url("../imgs/personCenter_btn.png") no-repeat center;
+            background-size: cover;
+            color: white;
+          }
+        }
+      }
+      .myaccount-bar{
+        width: 620px;
+        position: absolute;
+        left: 340px;
+        top: 220px;
+        .title-bar{
+          color: white;
+          font-size: 14px;
+          .title{
+            margin-top: -30px;
+          }
+        }
+        .one-list{
+          width: 100%;
+          height: 45px;
+          line-height: 45px;
+          background-color: #d2d2d2;
+          position: absolute;
+          left: 2px;
+          font-size: 14px;
+          color: #080808;
+          &.one{
+            top: 32px;
+          }
+          &.two{
+            top: 77px;
+            background-color: white;
+          }
+          &.three{
+            top: 122px;
+          }
+          span{
+            position: absolute;
+            &.left-des{
+              left: 45px;
+            }
+            &.right-des{
+              left: 345px;
+            }
+          }
+        }
+      }
+      .inaccount-bar{
+        width: 620px;
+        position: absolute;
+        left: 340px;
+        top: 220px;
+        .title-bar{
+          color: white;
+          font-size: 14px;
+          .title{
+            margin-top: -30px;
+          }
+        }
+        .one-list{
+          width: 100%;
+          height: 45px;
+          line-height: 45px;
+          background-color: #d2d2d2;
+          position: absolute;
+          left: 2px;
+          font-size: 14px;
+          color: #080808;
+          text-align: left;
+          .style-left{
+            margin-left:50px ;
+          }
+          &.one{
+            top: 32px;
+            input{
+              background-color: red;
+            }
+          }
+          &.two{
+            top: 77px;
+            background-color: white;
+          }
+          &.three{
+            top: 122px;
+          }
+          &.four{
+            top: 167px;
+            background-color: white;
+            height: 110px;
+            line-height: 110px;
+            text-align: center;
+            .inmoney-btn{
+              display: inline-block;
+              width: 150px;
+              height: 45px;
+              line-height: 45px;
+              border: 2px solid #d2b975;
+              border-radius: 2px;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              font-size: 18px;
+              color: #cda44d;
+              margin-bottom: 27px;
+              background: url("../imgs/personCenter_btn.png") no-repeat center;
+              background-size: cover;
+              color: white;
+            }
+          }
+          .in-money{
+            -webkit-appearance: none;
+            background-color: white;
+            border: 1px solid #cccccc;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            width: 90px;
+            height: 25px;
+          }
+        }
+      }
+      .inaccount-list{
+        width: 620px;
+        position: absolute;
+        left: 340px;
+        top: 220px;
+        .title-bar{
+          color: white;
+          font-size: 14px;
+          .title{
+            margin-top: -30px;
+          }
+        }
+        .data-bar{
+          width: 620px;
+          height: 45px;
+          line-height: 45px;
+          background-color: #d2d2d2;
+          position: absolute;
+          left: 2px;
+          font-size: 14px;
+          color: #080808;
+          top: 32px;
+          input{
+            -webkit-appearance: none;
+            background-color: white;
+            border: 1px solid #cccccc;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            width: 120px;
+            height: 25px;
+            line-height: 25px;
+          }
+          a{
+            cursor: pointer;
+          }
+        }
+        .date-list{
+          position: absolute;
+          top: 77px;
+          left: 0;
+          left: 2px;
+          width: 620px;
+          font-size: 14px;
+          background-color: white;
+          .list-title{
+            position: relative;
+            height: 50px;
+            width: 620px;
+            border-bottom: 1px solid #cccccc;
+            span{
+              position: absolute;
+              bottom: 5px;
+              &.one{
+                left: 75px;
+              }
+              &.two{
+                left: 270px;
+              }
+              &.three{
+                right: 75px;
+              }
+            }
+          }
+          .list{
+            position: relative;
+            height: 35px;
+            width: 620px;
+            border-bottom: 1px solid #cccccc;
+            span{
+              position: absolute;
+              bottom: 7px;
+              &.one{
+                left: 75px;
+              }
+              &.two{
+                left: 270px;
+              }
+              &.three{
+                right: 75px;
+                &.success{
+                  color: #e60012;
+                }
+                &.fail{
+                  color: #808080;
+                }
+                &.progress{
+                  color: #bf892c;
+                }
+              }
+            }
+          }
+          .list-bottom{
+            width: 610px;
+            height: 40px;
+            text-align: right;
+            padding-top: 10px;
+            padding-right: 10px;
+            a{
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .outaccount-bar{
+        width: 620px;
+        position: absolute;
+        left: 340px;
+        top: 220px;
+        .title-bar{
+          color: white;
+          font-size: 14px;
+          .title{
+            margin-top: -30px;
+          }
+        }
+        .one-list{
+          width: 100%;
+          height: 45px;
+          line-height: 45px;
+          background-color: #d2d2d2;
+          position: absolute;
+          left: 2px;
+          font-size: 14px;
+          color: #080808;
+          text-align: left;
+          .style-left{
+            margin-left:50px ;
+          }
+          &.one{
+            top: 32px;
+          }
+          &.two{
+            top: 77px;
+            background-color: white;
+            .input{
+              -webkit-appearance: none;
+              border: 1px solid #cccccc;
+              background: none;
+              width: 150px;
+              height: 25px;
+              padding-left: 10px;
+              border-radius: 3px;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+            }
+          }
+          &.three{
+            top: 122px;
+            span{
+              margin-right: 12px;
+            }
+            .in-bank{
+              -webkit-appearance: none;
+              border: 1px solid #cccccc;
+              width: 350px;
+              height: 25px;
+              padding-left: 10px;
+              border-radius: 3px;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+            }
+          }
+          &.four{
+            top: 167px;
+            background-color: white;
+            span{
+              margin-right: 55px;
+            }
+            .in-money{
+              -webkit-appearance: none;
+              background-color: white;
+              border: 1px solid #cccccc;
+              border-radius: 2px;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              width: 90px;
+              height: 25px;
+            }
+          }
+          &.five{
+            top: 212px;
+            background-color: white;
+            height: 110px;
+            line-height: 110px;
+            text-align: center;
+            .inmoney-btn{
+              display: inline-block;
+              width: 150px;
+              height: 45px;
+              line-height: 45px;
+              border: 2px solid #d2b975;
+              border-radius: 2px;
+              -webkit-border-radius: 2px;
+              -moz-border-radius: 2px;
+              font-size: 18px;
+              color: #cda44d;
+              margin-bottom: 27px;
+              background: url("../imgs/personCenter_btn.png") no-repeat center;
+              background-size: cover;
+              color: white;
+            }
+          }
+          .in-money{
+            -webkit-appearance: none;
+            background-color: white;
+            border: 1px solid #cccccc;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            width: 90px;
+            height: 25px;
+          }
+        }
+      }
+      .outaccount-list{
+        width: 620px;
+        position: absolute;
+        left: 340px;
+        top: 220px;
+        .title-bar{
+          color: white;
+          font-size: 14px;
+          .title{
+            margin-top: -30px;
+          }
+        }
+        .data-bar{
+          width: 620px;
+          height: 45px;
+          line-height: 45px;
+          background-color: #d2d2d2;
+          position: absolute;
+          left: 2px;
+          font-size: 14px;
+          color: #080808;
+          top: 32px;
+          input{
+            -webkit-appearance: none;
+            background-color: white;
+            border: 1px solid #cccccc;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            width: 120px;
+            height: 25px;
+            line-height: 25px;
+          }
+          a{
+            cursor: pointer;
+          }
+        }
+        .date-list{
+          position: absolute;
+          top: 77px;
+          left: 0;
+          left: 2px;
+          width: 620px;
+          font-size: 14px;
+          background-color: white;
+          .list-title{
+            position: relative;
+            height: 50px;
+            width: 620px;
+            border-bottom: 1px solid #cccccc;
+            span{
+              position: absolute;
+              bottom: 5px;
+              &.one{
+                left: 75px;
+              }
+              &.two{
+                left: 190px;
+              }
+              &.three{
+                left: 310px;;
+              }
+              &.four{
+                right: 75px;
+              }
+            }
+          }
+          .list{
+            position: relative;
+            height: 35px;
+            width: 620px;
+            border-bottom: 1px solid #cccccc;
+            span{
+              position: absolute;
+              bottom: 7px;
+              &.one{
+                left: 75px;
+              }
+              &.two{
+                left: 190px;
+              }
+              &.three{
+                left: 310px;
+              }
+              &.four{
+                right: 75px;
+                &.success{
+                  color: #e60012;
+                }
+                &.fail{
+                  color: #808080;
+                }
+                &.progress{
+                  color: #bf892c;
+                }
+              }
+            }
+          }
+          .list-bottom{
+            width: 610px;
+            height: 40px;
+            text-align: right;
+            padding-top: 10px;
+            padding-right: 10px;
+            a{
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottom{
+    width: 100%;
+    min-width: 1000px;
+    height: 150px;
+    background: url("../imgs/personCenter_bottombg.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    img{
+      margin-top: 60px;
+      width: 90%;
+      min-width: 1000px;
+    }
+  }
+
+}

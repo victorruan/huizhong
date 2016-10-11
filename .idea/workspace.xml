@@ -2,8 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a52030c-fa82-496d-ac9b-93f990d1d556" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/data.db" afterPath="$PROJECT_DIR$/config/data.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/PingFang Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_bottombg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_downBtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_five.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_forbiden.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_four.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_one.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_six.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_three.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_top1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/home_two.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/logo_password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/logo_username.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/logo_verification.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/news.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/news_default.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_bottombg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_line.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/personCenter_topbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/register_btnbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/register_top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/imgs/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/.idea/HuiZhong.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/baidu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/common.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/jquery.idcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/person.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/person.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/download.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/iscroll/iscroll-infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/iscroll/iscroll-lite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/iscroll/iscroll-probe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/iscroll/iscroll-zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/iscroll/iscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/jquery.3.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/jquery.event.drag-1.5.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/jquery.idcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/jquery.touchSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/reset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/js/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/news.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/personCenter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/register.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/huizhong_views/test.html" />
     </list>
     <ignored path="huizhong.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -331,6 +397,13 @@
       <option name="number" value="Default" />
       <updated>1475132581319</updated>
     </task>
+    <task id="LOCAL-00001" summary="sddsdsdsds">
+      <created>1476153227442</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476153227442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -340,6 +413,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19595315" sideWeight="0.49827388" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21510416" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19595315" sideWeight="0.50057536" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21020408" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -348,7 +422,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955974" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304813" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283186" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -372,6 +445,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sddsdsdsds" />
+    <option name="LAST_COMMIT_MESSAGE" value="sddsdsdsds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
